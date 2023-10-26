@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <header>
-        <meta>
-        <link rel="stylesheet" href="style.css">
-        <link rel="script" href="script.js">
-    </header>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="titre" style="padding: 50%;">
+        <h1 style="color: red; text-align: center;">Hello World!</h1>
+    </div>
+
+    <script>
+        const titre = document.getElementById('titre');
+        titre.addEventListener('click', () => {
+            alert("Hello World!");
+        });
+    </script>
+</body>
 </html>
