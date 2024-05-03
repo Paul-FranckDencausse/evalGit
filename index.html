@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"> <!-- Définit l'encodage des caractères de la page -->
+    <link rel="stylesheet" href="style.css"> <!-- Importe une feuille de style externe -->
 </head>
 <body>
-    <div id="titre" style="padding: 50%;">
-        <h1 style="color: red; text-align: center;">Hello World!</h1>
+    <div id="titre" style="padding: 50%;"> <!-- Définit une division avec l'identifiant "titre" et un style inline pour le padding -->
+        <h1 style="color: red; text-align: center;">Hello World!</h1> <!-- Affiche un titre de niveau 1 centré en rouge -->
     </div>
 
     <script>
-        const titre = document.getElementById('titre');
-        titre.addEventListener('click', () => {
-            alert("Hello World!");
+        const titre = document.getElementById('titre'); // Sélectionne l'élément avec l'identifiant "titre"
+        titre.addEventListener('click', () => { // Ajoute un écouteur d'événements au clic sur l'élément "titre"
+            alert("Hello World!"); // Affiche une boîte de dialogue avec le message "Hello World!"
         });
     </script>
 </body>
